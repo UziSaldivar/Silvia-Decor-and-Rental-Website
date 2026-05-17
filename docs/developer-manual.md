@@ -49,51 +49,6 @@ node server.js
 ### The application will run on:
 http://localhost:3000
 
-## Project Structure
-project-root/
-|
-|---------public/
-|            |
-|            |------index.html
-|            |
-|            |------rentals.html
-|            |
-|            |------gallery.html;
-|            |
-|            |------inquiry.html
-|            |
-|            |------styles.css
-|            |
-|            |------js/
-|                    |------- gallery.js
-|                    |------- global.js
-|                    |------- index.js
-|                    |------- inquiry.js
-|                    |------- rentals.js
-|
-|-------------index.js
-|
-|-------------.env
-|
-|-------------package.json
-|
-|-------------package-lock.json
-|
-|-------------rental_pics/
-|
-|-------------images/
-|
-|-------------node_module/
-|
-|-------------versel.json
-|
-|-------------.gitignore
-|
-|-------------docs/
-                |
-                |------README.md
-                |
-                |------developer-manual.md
 
 ## Database Structure
 ### Supabase Table
