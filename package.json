@@ -1,29 +1,34 @@
 {
-  "name": "inst377-week13-sampleapp-fa26",
+  "name": "Silvia Party Decor and Rental Website",
   "version": "1.0.0",
-  "description": "INST377 - Week 13 Sample App",
-  "homepage": "https://github.com/anmoldash98/inst377-week13-sampleapp-fa26#readme",
+  "description": "Business Website for my client party rental business",
+  "homepage": "https://github.com/UziSaldivar/Silvia-Decor-and-Rental-Website#readme",
   "bugs": {
     "url": "https://github.com/anmoldash98/inst377-week13-sampleapp-fa26/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anmoldash98/inst377-week13-sampleapp-fa26.git"
+    "url": "git+https://github.com/UziSaldivar/Silvia-Decor-and-Rental-Website.git"
   },
   "license": "ISC",
-  "author": "Anmol Dash",
+  "author": "Uziel Saldivar",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e '*'",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.104.1",
+    "axios": "^1.16.1",
     "body-parser": "^2.2.2",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "nodemon": "^3.1.14",
+    "openai": "^6.37.0",
     "usa-state-validator": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }

@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/index.js" defer></script>
+    <script src="js/global.js" defer></script>
+
+    <!--External CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <!--Left part of navigation bar (logo)-->
+        <div class="nav-left">
+            <img src="images/Silvia_Bethsabe_Decor&Rental.png">
+        </div> 
+        <!--Center part of naviation (links)-->
+        <div class="nav-center">
+            <a href="/">Home</a>
+            <a href="/rentals.html">Rentals</a>
+            <a href="/gallery.html">Gallery</a>
+            <a href="/inquiry.html">Inquiry</a>
+        </div>
+        <!--Right part of navigation bar (facebook and google translate logo)-->
+        <div class="nav-right">
+            <a href="https://www.facebook.com/profile.php?id=61579692218105" target="_blank">
+                <img src="images/facebook-logo.png" alt="facebook">
+            </a>
+            <div id="google_translate_element"></div>
+        </div>
+    </nav>
+
+    <!--Big logo Homepage-->
+    <section class="hero" data-aos="fade-in"></section>
+
+    <!--Our Services Section-->
+    <section class="service_section">
+        <h1>OUR SERVICES</h1>
+        <section class="service_row">
+                <div class="service_card" data-aos="fade-up">
+                    <!-- Swiper 1 Past Work -->
+                    <div class="swiper small-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/gallery1.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/gallery_4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Text below Past Work-->
+                    <div class = "service_content">
+                        <h2>Event Planning & Setup</h2>
+                        <p>Silvia’s Decor and Rental <strong>proudly services the DMV area (Maryland, Washington DC, and Northern Virginia)</strong>, providing stylish décor, quality rentals, and custom event designs for weddings, birthdays, baby showers, graduations, and special events. From tables, chairs, and linens to backdrops, draping, and centerpieces, we help bring your vision to life at an affordable price. Explore our gallery and rental catalog by clicking the button at the top of the page.</p>
+                    </div>
+                </div>
+                
+                <div class="service_card" data-aos="fade-up">
+                    <!-- Swiper 2 Rental Section-->
+                    <div class="swiper small-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/gallery5.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/gallery6.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/gallery7.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Text below rental section-->
+                    <div class = "service_content">
+                        <h2>Rental Service</h2>
+                        <p>Need extra supplies or accessories to complete your event? Silvia’s Decor and Rental offers affordable party rentals throughout the DMV area, including tables, chairs, linens, covers, decorations, and event accessories to help bring your vision to life. Whether you’re planning a small gathering or a large celebration, we provide quality rentals and reliable service to make your setup simple and stress-free. Explore our full rental catalog by clicking the Rentals button at the top of the page.</p>
+                    </div>
+                </div>
+                <div class="service_card" data-aos="fade-up">
+                    <!-- Swiper 3 decoration -->
+                    <div class="swiper small-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/gallery2.png">
+                            </div>
+                            <!--Will add more later-->
+                        </div>
+                    </div>
+                    <!--Text below decoration-->
+                    <div class="service_content">
+                        <h2>Custom Decorations</h2>
+                        <p>Looking to make your event truly unique? Silvia’s Decor and Rental creates custom handmade centerpieces, personalized backdrops, and elegant draping designs to bring style and creativity to every celebration throughout the DMV area. Whether you need eye-catching table décor or a beautiful photo backdrop, we help create unforgettable setups tailored to your vision. Explore our gallery by clicking the Gallery button at the top of the page to see more of our custom work.</p>
+                    </div>
+                </div>
+        </section>
+    </section>
+
+    <!--Reason to Party Section-->
+    <section class="holiday_section" data-aos="fade-up">
+        <section id="holidayBox">
+            <h1>Looking For a Reason To Party? 🎊</h1>
+            <p>Loading holiday...</p>
+        </section>
+        <section id="pitchBox">
+            <p id="pitchText"></p>
+        </section>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4> Silvia Bethsabe Decor & Rental LLC</h3>
+    </section>
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </body>
+</html>

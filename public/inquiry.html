@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Inquiry</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/inquiry.js" defer></script>
+    <script src="js/global.js" defer></script>
+    
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="images/Silvia_Bethsabe_Decor&Rental.png" />
+        </div>
+        <div class="nav-center">
+            <a href="/">Home</a>
+            <a href="/rentals.html">Rentals</a>
+            <a href="/gallery.html">Gallery</a>
+            <a href="/inquiry.html">Inquiry</a>
+        </div>
+        <div class="nav-right">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook-logo.png" alt="facebook" />
+            </a>
+            <div id="google_translate_element"></div>
+        </div>
+    </nav>
+
+    <h1>Contact Us</h1>
+    <!--Form Section -->
+    <form id="inquiryForm">
+        <input type="text" id="fullName" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="phone" placeholder="Phone Number" required />
+        <input type="date" id="eventDate" />
+        <input type="text" id="eventType" placeholder="Event Type" />
+        <textarea id="message" placeholder="Tell us about your event"></textarea>
+        <button type="submit">Submit Inquiry</button>
+    </form>
+
+    <!--Message to the user after submitting form-->
+    <p id="statusMessage"></p>
+
+     <!--Footer-->
+    <section class="footer">
+        <h4> Silvia Bethsabe Decor & Rental LLC</h3>
+    </section>
+
+    <!--Scripts-->
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
